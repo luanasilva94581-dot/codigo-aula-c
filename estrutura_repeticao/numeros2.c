@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int man() {
+printf("Mostrando os numeros de 10 até 200");
+
+for (int i=10; i < 200; i++){
+printf("\n numero %i", i);
+}
+    return 0;
+}
